@@ -1,30 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
-		<style>
-			h1 {
-				text-align: center;
-				color: green;
-			}
-			
-			form {
-				text-align: center;
-			}
-			#search {
-				border-radius: 40px;;
-			}
-		</style>
+		 <meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		 <link rel="stylesheet" type="text/css" href="search.css">
+		<title>Search</title>
     </head>
     <body>
-		<h1>Google</h1>
-        <form action="https://www.google.com/search">
-            <input id="search" type="search" placeholder="search" name="q"><br />
-            <input type="submit" value="Google Search">
-        </form>
-		<p>
-			<a href="imageSearch.html">Image Search</a>
-			<a href="advancedSearch.html">Advanced Search</a>
-		</p>
+		<div id="others" class = "container">
+			<button>
+				<a href="imageSearch.html">Image Search</a>
+			</button>
+			<button>
+				<a href="advancedSearch.html">Advanced Search</a>
+			</button>
+		</div>
+		<div class = "container">
+			<h1>Google</h1>
+        	<form action="https://www.google.com/search">
+            	<input id="search" type="search" name="q"><br /><br />
+            	<input type="submit" value="Google Search">
+        	</form>
+        </div>
     </body>
 	</html>
